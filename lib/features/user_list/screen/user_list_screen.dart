@@ -36,6 +36,7 @@ class UserListScreen extends StatelessWidget {
                     state: context.watch<UserListProvider>().userListState,
                     successBuilder: (userList) {
                       return LoadMoreListview(
+                        key: PageStorageKey(0),
                         itemCount: userList.length,
                         itemBuilder: (context, index) {
                           return UserListItem(

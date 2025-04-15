@@ -54,6 +54,7 @@ class _LoadMoreListviewState extends State<LoadMoreListview> {
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
+      key: widget.key,
       controller: _scrollController,
       itemCount: widget.itemCount + 1,
       itemBuilder: (context, index) {
