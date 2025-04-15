@@ -3,7 +3,7 @@ import 'package:sof_user_list/routes.dart';
 
 void main() {
   runApp(MaterialApp(
-    title: 'Flutter Demo',
+    title: 'StackOverflow User List',
     theme: ThemeData(
       colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
     ),
